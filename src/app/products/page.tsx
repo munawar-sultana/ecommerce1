@@ -2,9 +2,9 @@ import ProductCard from '../../components/ProductCard';
 import { Product } from '../../types';
 
 const products: Product[] = [
-  { id: 1, title: 'Product One', description: 'Nice product', price: 29.99, image: '/products/1.jpg' },
-  { id: 2, title: 'Product Two', description: 'Another product', price: 39.99, image: '/products/2.jpg' },
-  { id: 3, title: 'Product Three', description: 'Best choice for you', price: 49.99, image: '/products/3.jpg' },
+  { id: 1, title: 'Product One', description: 'Nice product', price: 29.99, image: '/makeup.jpeg' },
+  { id: 2, title: 'Product Two', description: 'Another product', price: 39.99, image: '/makeup2.jpeg' },
+  { id: 3, title: 'Product Three', description: 'Best choice for you', price: 49.99, image: '/watch.jpeg' },
 ];
 
 export default function ProductsPage() {
